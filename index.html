@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AstroVerse</title>
+  <link rel="stylesheet" href="./src/css/style.css" />
+  <link rel="stylesheet" href="./src/css/navBar.css" />
+  <link rel="stylesheet" href="./src/css/BaseStyle.css" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">🚀 AstroVerse</div>
+    <ul class="nav-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="#mission">Our Missions</a></li>
+      <!-- <li><a href="#">Gallery</a></li> -->
+      <li><a href="#site-footer">Contact</a></li>
+      <li><button class="menuBtn">Menu <i class="fa-solid fa-bars"></i></button></li>
+
+    </ul>
+  </nav>
+  <div class="menuPanel">
+    <a href="./index.html" class="menuPanel-Btn">
+      <i class="fa-solid fa-house"></i>
+      <p>Home</p>
+    </a>
+    <a href="./spaceMission.html" class="menuPanel-Btn">
+      <i class="fa-solid fa-rocket"></i>
+      <p>Space Mission</p>
+    </a>
+    <a href="./spaceNews.html" class="menuPanel-Btn">
+      <i class="fa-solid fa-newspaper"></i>
+      <p>News</p>
+    </a>
+    <a href="./spaceSatellite.html" class="menuPanel-Btn">
+      <i class="fa-solid fa-satellite"></i>
+      <p>Isro Satellite</p>
+    </a>
+    <a href="./solarSystem.html" class="menuPanel-Btn">
+      <i class="fa-solid fa-user-astronaut"></i>
+      <p>Solar System</p>
+    </a>
+    <a href="./astroEvent.html" class="menuPanel-Btn">
+      <i class="fa-solid fa-calendar-days"></i>
+      <p>Astonomy Events</p>
+    </a>
+    <!-- <a href="./index.html" class="menuPanel-Btn">
+      <i class="fa-solid fa-photo-film"></i>
+      <p>Gallery</p>
+    </a> -->
+    <a href="./planetsSystem.html" class="menuPanel-Btn">
+      <i class="fa-solid fa-earth-americas"></i>
+      <p>Planets</p>
+    </a>
+    <a href="" class="menuPanel-Btn">
+      <i class="fa-solid fa-blog"></i>
+      <p>Blogs</p>
+    </a>
+  </div>
+
+  <section class="hero">
+    <canvas id="bgCanvas"></canvas>
+    <h1 class="hero-text">ASTROVERSE</h1>
+  </section>
+
+  <!-- Create a section where i put our mission -->
+  <section class="mission" id="mission">
+    <div class="mission-content">
+      <img src="./Images/astronaut-removebg-preview.png" alt="Mission Image">
+      <div class="mission-text">
+        <h2>Our Mission</h2>
+        <p>✅We aim to ignite a sense of wonder about the universe and its infinite possibilities.</p>
+        <p>✅We aim to push the boundaries of human knowledge and technology.</p>
+        <p>✅Our goal is to provide educational resources that simplify space science and make it understandable for
+          everyone.</p>
+        <p>✅We are committed to making space exploration accessible to everyone.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="astroverse-team">
+    <h2>Meet Our Team</h2>
+    <marquee class="team-marquee" behavior="scroll" direction="left" scrollamount="5" onmouseover="this.stop();"
+      onmouseout="this.start();">
+      <div class="team-card">
+        <img src="./Images/aniket.png" alt="Team Member 1">
+        <h3>Aniket Kumar</h3>
+        <p>Lead Developer</p>
+      </div>
+      <div class="team-card">
+        <img src="./Images/alok.png" alt="Team Member 2">
+        <h3>Alok Kumar</h3>
+        <p>Researcher</p>
+      </div>
+      <div class="team-card">
+        <img src="./Images/harshit.jpeg" alt="Team Member 3">
+        <h3>Harshit Kumar</h3>
+        <p>Api Integreter</p>
+      </div>
+    </marquee>
+  </section>
+
+  <div class="contact-form-container">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST" class="contact-form">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="4" required placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+
+  <footer class="site-footer" id="site-footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>About Us</h4>
+        <p>We provide accessible space education to inspire the next generation of explorers and innovators. Join us
+          in
+          discovering the wonders of the universe.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Mission</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Events</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Contact Us</h4>
+        <p>Email: <a href="mailto:info@yourwebsite.com">lalua123@gmail.com</a></p>
+        <p>Phone: +1 234 567 890</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 AstroVerse. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+
+  <script type="module" src="./src/app.js"></script>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>

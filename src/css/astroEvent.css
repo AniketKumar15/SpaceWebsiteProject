@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.tableContainer {
+    padding: 20px 50px;
+}
+
+.astroEventTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+th {
+    padding: 20px 10px;
+    background: #04AA64;
+}

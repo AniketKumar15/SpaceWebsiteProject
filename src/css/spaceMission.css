@@ -1,0 +1,82 @@
+/* Basic card styling */
+
+
+#space-missions {
+    background-color: #0a0a23;
+    /* Deep space background */
+    color: #fff;
+    /* White text */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 40px auto;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+#space-missions h2 {
+    font-size: 2.5rem;
+    color: #4f92d6;
+    /* Light blue color */
+    margin-bottom: 20px;
+}
+
+#space-missions p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#space-missions h3 {
+    font-size: 1.6rem;
+    color: #4f92d6;
+    margin-bottom: 15px;
+}
+
+#space-missions ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#space-missions ul li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    padding-left: 35px;
+    /* Increased padding to make room for the icon */
+    position: relative;
+}
+
+#space-missions ul li::before {
+    content: "🌌";
+    /* Space icon */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5rem;
+    margin-top: 2px;
+    /* Optional: Adjust if you want to fine-tune the vertical position */
+}
+
+@media (max-width: 768px) {
+    #space-missions {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    #space-missions h2 {
+        font-size: 2rem;
+    }
+
+    #space-missions h3 {
+        font-size: 1.4rem;
+    }
+
+    #space-missions p {
+        font-size: 1rem;
+    }
+
+    #space-missions ul li {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "astronomy_events_2025": {
+        "lunar_events": [
+            {
+                "event": "Total Lunar Eclipse",
+                "date": "May 15-16, 2025",
+                "description": "A total lunar eclipse visible in North and South America, Europe, and parts of Africa and western Asia."
+            },
+            {
+                "event": "Partial Lunar Eclipse",
+                "date": "October 7, 2025",
+                "description": "A partial lunar eclipse visible from parts of North America, Europe, and parts of Asia."
+            }
+        ],
+        "solar_events": [
+            {
+                "event": "Annular Solar Eclipse",
+                "date": "October 2, 2025",
+                "description": "An annular solar eclipse visible in parts of the Pacific Ocean, Chile, and Argentina."
+            },
+            {
+                "event": "Partial Solar Eclipse",
+                "date": "March 29, 2025",
+                "description": "A partial solar eclipse visible from parts of the Arctic, Europe, and northeastern North America."
+            }
+        ],
+        "meteor_showers": [
+            {
+                "event": "Perseid Meteor Shower",
+                "date": "August 12-13, 2025",
+                "description": "One of the most famous meteor showers, visible from the Northern Hemisphere."
+            },
+            {
+                "event": "Geminid Meteor Shower",
+                "date": "December 13-14, 2025",
+                "description": "A major meteor shower visible from both hemispheres."
+            }
+        ],
+        "planetary_alignments": [
+            {
+                "event": "Jupiter and Saturn Conjunction",
+                "date": "April 14, 2025",
+                "description": "Jupiter and Saturn will appear close together in the sky."
+            },
+            {
+                "event": "Venus and Jupiter Conjunction",
+                "date": "February 22, 2025",
+                "description": "Venus and Jupiter will appear close together in the sky in the early morning."
+            }
+        ],
+        "comet_appearances": [
+            {
+                "comet": "Comet C/2023 A3 (Tsuchinshan)",
+                "date": "2025",
+                "description": "Expected to reach perihelion in 2025, may offer a good show depending on its activity."
+            },
+            {
+                "comet": "Comet C/2023 T1 (Tsuchinshan)",
+                "date": "2025",
+                "description": "Expected to be visible in 2025, with brightness depending on its activity."
+            }
+        ],
+        "supermoons": [
+            {
+                "event": "Supermoon",
+                "date": "August 1, 2025",
+                "description": "A supermoon, making the Moon appear larger and brighter than usual."
+            },
+            {
+                "event": "Supermoon",
+                "date": "August 30, 2025",
+                "description": "A supermoon, making the Moon appear larger and brighter than usual."
+            },
+            {
+                "event": "Supermoon",
+                "date": "September 28, 2025",
+                "description": "A supermoon, making the Moon appear larger and brighter than usual."
+            }
+        ],
+        "equinoxes_and_solstices": [
+            {
+                "event": "Spring Equinox",
+                "date": "March 20, 2025",
+                "description": "The start of spring in the Northern Hemisphere and autumn in the Southern Hemisphere."
+            },
+            {
+                "event": "Summer Solstice",
+                "date": "June 21, 2025",
+                "description": "The start of summer in the Northern Hemisphere and winter in the Southern Hemisphere."
+            },
+            {
+                "event": "Autumn Equinox",
+                "date": "September 23, 2025",
+                "description": "The start of autumn in the Northern Hemisphere and spring in the Southern Hemisphere."
+            },
+            {
+                "event": "Winter Solstice",
+                "date": "December 21, 2025",
+                "description": "The start of winter in the Northern Hemisphere and summer in the Southern Hemisphere."
+            }
+        ],
+        "planetary_events": [
+            {
+                "event": "Mars Opposition",
+                "date": "September 14, 2025",
+                "description": "Mars will be directly opposite the Sun, appearing bright and large in the sky."
+            },
+            {
+                "event": "Mercury Transits",
+                "dates": [
+                    "January 7-8, 2025",
+                    "November 14, 2025"
+                ],
+                "description": "Mercury will transit across the face of the Sun, visible from different regions of Earth."
+            }
+        ],
+        "star_clusters_and_nebulae": [
+            {
+                "object": "NGC 6543 (Cat's Eye Nebula)",
+                "description": "A planetary nebula located in the constellation Draco, observable through small telescopes."
+            },
+            {
+                "object": "M13 (Hercules Cluster)",
+                "description": "The Great Hercules Cluster, a dense and bright star cluster visible in the summer skies."
+            }
+        ],
+        "other_conjunctions": [
+            {
+                "event": "Mercury and Venus Conjunction",
+                "date": "March 22, 2025",
+                "description": "Mercury and Venus will appear close together in the sky during the early morning."
+            },
+            {
+                "event": "Mars and Venus Conjunction",
+                "date": "November 24, 2025",
+                "description": "Mars and Venus will align in the sky, creating a beautiful celestial sight."
+            }
+        ],
+        "asteroid_approaches": [
+            {
+                "event": "Asteroid 1998 OR2",
+                "date": "April 29, 2025",
+                "description": "Asteroid 1998 OR2 will pass close to Earth, though at a safe distance, offering an interesting observation target."
+            }
+        ]
+    }
+}

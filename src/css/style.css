@@ -1,0 +1,363 @@
+/* .menuPanel {
+    background: rgba(255, 255, 255, 0.151);
+    height: 90vh;
+    bottom: 1rem;
+    border-radius: 10px;
+    position: absolute;
+    width: 90%;
+    z-index: 10;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(1px);
+    display: none;
+    padding: 30px;
+
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+.menuPanel {
+    display: none;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.151);
+    border-radius: 10px;
+    backdrop-filter: blur(1px);
+    z-index: 10;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin-top: 70px;
+    padding: 30px;
+
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.active {
+    display: flex;
+}
+
+/* .menuPanel {
+    background: rgba(255, 255, 255, 0.064);
+    height: 90vh;
+    bottom: 0;
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-out, visibility 0s 0.3s, opacity 0.3s ease-out;
+}
+
+.menuPanel.active {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+    transition: transform 0.3s ease-out, visibility 0s 0s, opacity 0.3s ease-out;
+} */
+.menuPanel-Btn {
+    flex-grow: 1;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menuPanel-Btn:hover {
+    background: rgba(255, 255, 255, 0.908);
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.menuPanel-Btn i {
+    font-size: 30px;
+}
+
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#bgCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.hero-text {
+    font-family: cyberpunk, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: lighter;
+    z-index: 5;
+    pointer-events: none;
+    color: white;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.mission {
+    padding: 50px;
+}
+
+.mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Ensures the layout adapts to smaller screens */
+}
+
+.mission-image img {
+    width: 100%;
+    max-width: 500px;
+    /* Max size for the image */
+    height: auto;
+}
+
+.mission-text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.mission-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.mission-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .mission-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mission-image {
+        margin-bottom: 20px;
+    }
+
+    .mission-text {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+.site-footer {
+    /* Deep blue/space theme */
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+    /* Ensures sections don’t get too small on smaller screens */
+}
+
+.footer-section h4 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #f4f4f4;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.footer-section ul li a:hover {
+    color: #f4f4f4;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #ffcb08;
+    /* Yellow accent color for hover effect */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+}
+
+/* Members */
+.astroverse-team {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.astroverse-team h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.team-card {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin: 0 20px;
+    text-align: center;
+    padding: 10px;
+    min-width: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.team-card h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.team-card p {
+    font-size: 1rem;
+    color: #b1b1b1;
+}
+
+.contact-form-container {
+    width: 100%;
+    max-width: 700px;
+    /* Limit the width to prevent stretching too much on larger screens */
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-form-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #4f92d6;
+    outline: none;
+}
+
+.submit-btn {
+    padding: 12px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #717171;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.submit-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}

@@ -1,0 +1,34 @@
+iframe {
+    width: 100%;
+    height: 90vh;
+    border: none;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.credit {
+    font-size: 0.9rem;
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.credit p {
+    margin: 0;
+}
+
+.credit a {
+    color: #4f92d6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.credit a:hover {
+    text-decoration: underline;
+}

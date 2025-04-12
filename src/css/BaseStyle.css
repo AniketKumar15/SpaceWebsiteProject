@@ -1,0 +1,40 @@
+@font-face {
+    font-family: cyberpunk;
+    src: url('/font2.otf') format('opentype');
+    /* Corrected font path */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* Fallback to sans-serif if font fails */
+}
+
+body,
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url("../../Images/stars.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    color: white;
+}
+
+.backBtn {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: transform 0.2s linear;
+}
+
+.backBtn:hover {
+    color: #fff700;
+    transform: scale(1.5);
+    cursor: pointer;
+}

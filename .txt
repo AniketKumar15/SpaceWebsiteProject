@@ -1,0 +1,19 @@
+<section class="resources">
+    <h2>Resources</h2>
+    <div class="resource-cards">
+      <div class="resource-card">
+        <img src="./Images/space1.jpg" alt="Resource 1">
+        <h3>Space Exploration</h3>
+        <p>Discover the latest advancements in space exploration and technology.</p>
+      </div>
+      <div class="resource-card">
+        <img src="./Images/space2.jpg" alt="Resource 2">
+        <h3>Astronomy</h3>
+        <p>Learn about celestial bodies, galaxies, and the universe.</p>
+      </div>
+      <div class="resource-card">
+        <img src="./Images/space3.jpg" alt="Resource 3">
+        <h3>Astrophysics</h3>
+        <p>Dive into the science of the universe and its fundamental laws.</p>
+      </div>
+    </div>
