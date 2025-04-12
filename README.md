@@ -15,7 +15,7 @@ To build a web-based platform that spreads awareness and knowledge about space, 
 
 ## 🌠 Features
 
-### 🛰️ Core Features
+### 🛰️ Core Features (some of them not completed Yet)
 - **Space News**: Stay updated with the latest happenings in the world of space and astrophysics.
 - **Space Missions**: Explore current and past space missions from various global agencies.
 - **All ISRO Satellites**: View information about all satellites launched by ISRO.
