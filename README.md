@@ -15,7 +15,7 @@ To build a web-based platform that spreads awareness and knowledge about space, 
 
 ## 🌠 Features
 
-### 🛰️ Core Features (some of them not completed Yet)
+### 🛰️ Core Features
 - **Space News**: Stay updated with the latest happenings in the world of space and astrophysics.
 - **Space Missions**: Explore current and past space missions from various global agencies.
 - **All ISRO Satellites**: View information about all satellites launched by ISRO.
@@ -24,8 +24,6 @@ To build a web-based platform that spreads awareness and knowledge about space, 
 - **3D Planet Models**: Interact with 3D models of planets using **Three.js**, with detailed information.
 - **Space Blog**: Users can write and submit space-related blogs.
 - **Admin panel** to approve or reject blog submissions for quality control.
-
-### 🛠️ In Progress
 - **Real-time ISS Tracking**: Visualize the International Space Station’s current position on a 3D globe.
 - **Space Quiz**: Test your space knowledge with an interactive quiz (coming soon!).
 
