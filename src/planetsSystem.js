@@ -61,14 +61,14 @@ scene.add(pointLight);
 const ambientLight = new THREE.AmbientLight(0xffffff, 4);
 scene.add(ambientLight);
 
-const sunGeometry = new THREE.SphereGeometry(3, 64, 64);
-const sunMaterial = new THREE.MeshStandardMaterial({
-    map: new THREE.TextureLoader().load(sunTexture),
-    roughness: 0.5,
-    metalness: 0.6
-});
-const sunMesh = new THREE.Mesh(sunGeometry, sunMaterial);
-scene.add(sunMesh);
+// const sunGeometry = new THREE.SphereGeometry(3, 64, 64);
+// const sunMaterial = new THREE.MeshStandardMaterial({
+//     map: new THREE.TextureLoader().load(sunTexture),
+//     roughness: 0.5,
+//     metalness: 0.6
+// });
+// const sunMesh = new THREE.Mesh(sunGeometry, sunMaterial);
+// scene.add(sunMesh);
 
 const orbitRadius = 15;     // Radius of the orbit circle
 const planetRadius = 2;
@@ -119,7 +119,7 @@ for (let i = 0; i < planetCount; i++) {
 // Animation
 function animate() {
     requestAnimationFrame(animate);
-    sunMesh.rotation.y += 0.005; // Rotate the sun
+    // sunMesh.rotation.y += 0.005; // Rotate the sun
     // Rotate each planet
     planets.forEach(planet => {
         planet.rotation.y += 0.005;

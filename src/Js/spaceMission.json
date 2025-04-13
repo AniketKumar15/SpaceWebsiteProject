@@ -54,5 +54,54 @@
         "done_by": "ISRO",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhEf-GQcZRlkm7aSXeIoBlDwknj_N0kHGR4A&s",
         "source_link": "https://en.wikipedia.org/wiki/Mars_Orbiter_Mission"
+    },
+    {
+        "title": "Chandrayaan-2",
+        "desc": "Launched in 2019, Chandrayaan-2 is India's second lunar exploration mission, which included an orbiter, lander, and rover to explore the Moon's south pole region.",
+        "done_by": "ISRO",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCzzdwse0v_V6n0dshIWNLyDZB5XTbcMMz_A&s",
+        "source_link": "https://www.isro.gov.in/Chandrayaan_2.html"
+    },
+    {
+        "title": "Chandrayaan-3",
+        "desc": "Chandrayaan-3 is India's third lunar exploration mission, launched in 2023. It aims to demonstrate the ability to perform a soft landing on the Moon.",
+        "done_by": "ISRO",
+        "img": "https://c.ndtvimg.com/2023-08/1srd3nl8_chandrayaan-isro_625x300_23_August_23.jpg",
+        "source_link": "https://www.ndtv.com/india-news/chandrayaan-mission-explained-what-india-hopes-to-achieve-with-the-chandrayaan-3-mission-4321100"
+    },
+    {
+        "title": "James Webb Space Telescope",
+        "desc": "Launched in 2021, the James Webb Space Telescope is a large infrared telescope that will help scientists study the universe's formation and evolution.",
+        "done_by": "NASA",
+        "img": "https://science.nasa.gov/wp-content/uploads/2024/05/jwst_artist_concept_0.png",
+        "source_link": "https://science.nasa.gov/mission/webb/"
+    },
+    {
+        "title": "Parker Solar Probe",
+        "desc": "Launched in 2018, the Parker Solar Probe is a NASA spacecraft designed to study the outer corona of the Sun and gather data on solar activity.",
+        "done_by": "NASA",
+        "img": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/psp/Parker%20Into%20the%20Sun.png",
+        "source_link": "https://science.nasa.gov/science-research/heliophysics/nasas-parker-solar-probe-makes-history-with-closest-pass-to-sun/"
+    },
+    {
+        "title": "Hubble Space Telescope",
+        "desc": "Launched in 1990, the Hubble Space Telescope has provided some of the most detailed images of distant galaxies, nebulae, and other astronomical phenomena.",
+        "done_by": "NASA/ESA",
+        "img": "https://science.nasa.gov/wp-content/uploads/2023/04/27946391011_d40ff10573_h-jpg.webp",
+        "source_link": "https://science.nasa.gov/mission/hubble/"
+    },
+    {
+        "title": "Aditya-L1",
+        "desc": "Launched in 2023, Aditya-L1 is India's first solar mission aimed at studying the Sun's corona, solar emissions, and their impact on space weather.",
+        "done_by": "ISRO",
+        "img": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2024/01/deployment-of-magnetometer-boom-on-aditya-l1-1706187652.jpg",
+        "source_link": "https://www.isro.gov.in/Aditya_L1.html"
+    },
+    {
+        "title": "RISAT-1A",
+        "desc": "Launched in 2022, RISAT-1A is an advanced radar imaging satellite by ISRO, designed for all-weather surveillance and agricultural monitoring.",
+        "done_by": "ISRO",
+        "img": "https://www.eoportal.org/api/cms/documents/163813/6584772/My+project+%282%29.jpg/9748b551-c629-8c27-7dd0-55590a7a04d5?t=1667190719889",
+        "source_link": "https://en.wikipedia.org/wiki/RISAT-1"
     }
 ]

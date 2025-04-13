@@ -68,9 +68,6 @@ session_start();
             </table>
         </div>
     </div>
-    <footer>
-        <p>Made with ❤️ for the stars</p>
-    </footer>
 
     <script src="./src/js/spaceQuiz.js"></script>
 </body>
