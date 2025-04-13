@@ -25,6 +25,7 @@ if (isset($_POST['signUpBtn'])) {
 if (isset($_POST["loginBtn"])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
+    $redirect = $_POST['redirect'] ?? 'blog.php';
 
     $sql = "SELECT * FROM `user` WHERE username = '$username'";
     $result = mysqli_query($conn, $sql);
@@ -33,7 +34,7 @@ if (isset($_POST["loginBtn"])) {
         if (password_verify($password, $row['password'])) {
             $_SESSION['user_id'] = $row['id'];
             $_SESSION['username'] = $username;
-            header("Location: blog.php");
+            header("Location: $redirect");
         } else {
             echo "<script>alert('Incorrect Password');</script>";
         }
@@ -74,6 +75,8 @@ if (isset($_POST["loginBtn"])) {
             <!-- Login Form -->
             <form action="account.php" method="post" class="form-container" id="loginForm">
                 <h2>Login</h2>
+                <input type="hidden" name="redirect"
+                    value="<?php echo htmlspecialchars($_GET['redirect'] ?? 'blog.php'); ?>">
                 <input type="text" id="loginUsername" placeholder="Username" name="username" required>
                 <input type="password" id="loginPassword" placeholder="Password" name="password" required>
                 <button class="btn" name="loginBtn" type="submit">Login</button>

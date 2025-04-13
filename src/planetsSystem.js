@@ -79,8 +79,6 @@ const textureLoader = new THREE.TextureLoader();
 const planets = [];
 const labels = [];
 
-
-
 for (let i = 0; i < planetCount; i++) {
     const angle = (2 * Math.PI / planetCount) * i;
 
@@ -113,7 +111,7 @@ for (let i = 0; i < planetCount; i++) {
     labelObject.position.set(x, planetRadius + 1, z); // Position it above the planet
     scene.add(labelObject);
 
-    // Store it for animation
+
     planets.push(planetMesh);
     labels.push(labelObject);
 }
@@ -139,6 +137,8 @@ function animate() {
     labelRenderer.render(scene, camera);
 }
 animate();
+
+
 
 let planetDataArray = [];
 

@@ -1,0 +1,162 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Links Styling */
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+/* Hover effect for all links */
+.link:hover {
+    color: #ebd937;
+}
+
+/* Style for Sign Up Link */
+.SignUp {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for Sign Up link */
+.SignUp:hover {
+    background-color: #45a049;
+    color: #fff;
+}
+
+.SignUp i {
+    margin-left: 8px;
+}
+
+.users {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.users img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #333;
+    min-width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu li {
+    list-style: none;
+    padding: 8px 0;
+}
+
+.dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu li a:hover,
+#addBlog:hover {
+    background-color: #555;
+}
+
+/* Show the dropdown menu when hovering over the user li */
+.users:hover .dropdown-menu {
+    display: block;
+}
+
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #1b263b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.question {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.options button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #415a77;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.options button:hover {
+    background-color: #778da9;
+}
+
+#leaderboard {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #778da9;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #1b263b;
+}

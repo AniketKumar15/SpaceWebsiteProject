@@ -1,0 +1,505 @@
+{
+  "quizTitle": "Ultimate Space Quiz",
+  "questions": [
+    {
+      "question": "What is the largest planet in our Solar System?",
+      "options": [
+        "Earth",
+        "Saturn",
+        "Jupiter",
+        "Mars"
+      ],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Mercury",
+        "Uranus"
+      ],
+      "answer": "Mars"
+    },
+    {
+      "question": "Who was the first person to walk on the Moon?",
+      "options": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Michael Collins"
+      ],
+      "answer": "Neil Armstrong"
+    },
+    {
+      "question": "What is the name of our galaxy?",
+      "options": [
+        "Andromeda",
+        "Milky Way",
+        "Whirlpool",
+        "Triangulum"
+      ],
+      "answer": "Milky Way"
+    },
+    {
+      "question": "Which planet has the most moons?",
+      "options": [
+        "Jupiter",
+        "Neptune",
+        "Uranus",
+        "Saturn"
+      ],
+      "answer": "Saturn"
+    },
+    {
+      "question": "What is the closest planet to the Sun?",
+      "options": [
+        "Venus",
+        "Earth",
+        "Mercury",
+        "Mars"
+      ],
+      "answer": "Mercury"
+    },
+    {
+      "question": "Which space telescope was launched in 1990?",
+      "options": [
+        "Chandra",
+        "Spitzer",
+        "Kepler",
+        "Hubble"
+      ],
+      "answer": "Hubble"
+    },
+    {
+      "question": "What force keeps planets in orbit around the Sun?",
+      "options": [
+        "Magnetism",
+        "Gravity",
+        "Friction",
+        "Radiation"
+      ],
+      "answer": "Gravity"
+    },
+    {
+      "question": "Which planet is tilted on its side?",
+      "options": [
+        "Neptune",
+        "Uranus",
+        "Mars",
+        "Jupiter"
+      ],
+      "answer": "Uranus"
+    },
+    {
+      "question": "What is the name of the first artificial satellite?",
+      "options": [
+        "Apollo 11",
+        "Luna 1",
+        "Sputnik 1",
+        "Explorer 1"
+      ],
+      "answer": "Sputnik 1"
+    },
+    {
+      "question": "Which planet is the hottest in our Solar System?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ],
+      "answer": "Venus"
+    },
+    {
+      "question": "What is a black hole?",
+      "options": [
+        "A star",
+        "A comet",
+        "A region of space with intense gravity",
+        "A type of galaxy"
+      ],
+      "answer": "A region of space with intense gravity"
+    },
+    {
+      "question": "Which planet has a giant red spot?",
+      "options": [
+        "Saturn",
+        "Jupiter",
+        "Neptune",
+        "Mars"
+      ],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "What is the Sun primarily made of?",
+      "options": [
+        "Oxygen",
+        "Helium",
+        "Hydrogen",
+        "Nitrogen"
+      ],
+      "answer": "Hydrogen"
+    },
+    {
+      "question": "How long does light take to reach Earth from the Sun?",
+      "options": [
+        "8 seconds",
+        "8 minutes",
+        "8 hours",
+        "8 days"
+      ],
+      "answer": "8 minutes"
+    },
+    {
+      "question": "Which space agency launched the James Webb Space Telescope?",
+      "options": [
+        "NASA",
+        "ESA",
+        "ISRO",
+        "Roscosmos"
+      ],
+      "answer": "NASA"
+    },
+    {
+      "question": "What does ISS stand for?",
+      "options": [
+        "International Space Station",
+        "Interstellar Satellite System",
+        "International Science Station",
+        "Integrated Space Station"
+      ],
+      "answer": "International Space Station"
+    },
+    {
+      "question": "Which planet is known for its rings?",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Uranus",
+        "Saturn"
+      ],
+      "answer": "Saturn"
+    },
+    {
+      "question": "What is the smallest planet in our Solar System?",
+      "options": [
+        "Mars",
+        "Mercury",
+        "Venus",
+        "Pluto"
+      ],
+      "answer": "Mercury"
+    },
+    {
+      "question": "Who was the first human in space?",
+      "options": [
+        "Buzz Aldrin",
+        "Alan Shepard",
+        "Yuri Gagarin",
+        "John Glenn"
+      ],
+      "answer": "Yuri Gagarin"
+    },
+    {
+      "question": "Which planet has the longest day?",
+      "options": [
+        "Venus",
+        "Mercury",
+        "Mars",
+        "Neptune"
+      ],
+      "answer": "Venus"
+    },
+    {
+      "question": "What is the Kuiper Belt?",
+      "options": [
+        "A moon",
+        "A planet",
+        "A region of icy objects beyond Neptune",
+        "A galaxy"
+      ],
+      "answer": "A region of icy objects beyond Neptune"
+    },
+    {
+      "question": "Which NASA mission first landed humans on the Moon?",
+      "options": [
+        "Apollo 11",
+        "Apollo 13",
+        "Apollo 7",
+        "Gemini 4"
+      ],
+      "answer": "Apollo 11"
+    },
+    {
+      "question": "What shape is the Milky Way galaxy?",
+      "options": [
+        "Elliptical",
+        "Spiral",
+        "Irregular",
+        "Ring"
+      ],
+      "answer": "Spiral"
+    },
+    {
+      "question": "What is the name of Mars\u2019 largest moon?",
+      "options": [
+        "Phobos",
+        "Deimos",
+        "Titan",
+        "Ganymede"
+      ],
+      "answer": "Phobos"
+    },
+    {
+      "question": "Which planet is known as Earth\u2019s twin?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Mercury",
+        "Neptune"
+      ],
+      "answer": "Venus"
+    },
+    {
+      "question": "Which planet has the fastest rotation?",
+      "options": [
+        "Earth",
+        "Jupiter",
+        "Saturn",
+        "Neptune"
+      ],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "What kind of celestial body is the Moon?",
+      "options": [
+        "Star",
+        "Planet",
+        "Asteroid",
+        "Natural satellite"
+      ],
+      "answer": "Natural satellite"
+    },
+    {
+      "question": "What planet is famous for the Great Dark Spot?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Neptune",
+        "Uranus"
+      ],
+      "answer": "Neptune"
+    },
+    {
+      "question": "What is an exoplanet?",
+      "options": [
+        "A planet in our Solar System",
+        "A dwarf planet",
+        "A planet outside our Solar System",
+        "A comet"
+      ],
+      "answer": "A planet outside our Solar System"
+    },
+    {
+      "question": "Which gas makes up most of the atmosphere on Venus?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Carbon Dioxide",
+        "Methane"
+      ],
+      "answer": "Carbon Dioxide"
+    },
+    {
+      "question": "What is the Oort Cloud?",
+      "options": [
+        "A region of Mars",
+        "A comet cloud surrounding the Solar System",
+        "A moon of Jupiter",
+        "A type of galaxy"
+      ],
+      "answer": "A comet cloud surrounding the Solar System"
+    },
+    {
+      "question": "How many planets are in our Solar System?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": "8"
+    },
+    {
+      "question": "What was the name of the first American in space?",
+      "options": [
+        "John Glenn",
+        "Buzz Aldrin",
+        "Alan Shepard",
+        "Neil Armstrong"
+      ],
+      "answer": "Alan Shepard"
+    },
+    {
+      "question": "Which planet is blue due to methane in its atmosphere?",
+      "options": [
+        "Neptune",
+        "Uranus",
+        "Earth",
+        "Mars"
+      ],
+      "answer": "Neptune"
+    },
+    {
+      "question": "What is a light-year?",
+      "options": [
+        "Time it takes light to travel around Earth",
+        "Distance light travels in a year",
+        "A year on the Moon",
+        "The speed of light"
+      ],
+      "answer": "Distance light travels in a year"
+    },
+    {
+      "question": "What type of galaxy is Andromeda?",
+      "options": [
+        "Spiral",
+        "Elliptical",
+        "Ring",
+        "Irregular"
+      ],
+      "answer": "Spiral"
+    },
+    {
+      "question": "How many astronauts have walked on the Moon?",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "answer": "12"
+    },
+    {
+      "question": "Which spacecraft carried Voyager 1 into space?",
+      "options": [
+        "Apollo",
+        "Saturn V",
+        "Space Shuttle",
+        "Titan IIIE"
+      ],
+      "answer": "Titan IIIE"
+    },
+    {
+      "question": "What is the Great Red Spot?",
+      "options": [
+        "Volcano",
+        "Crater",
+        "Storm",
+        "Desert"
+      ],
+      "answer": "Storm"
+    },
+    {
+      "question": "What\u2019s the coldest planet in the Solar System?",
+      "options": [
+        "Uranus",
+        "Neptune",
+        "Pluto",
+        "Mars"
+      ],
+      "answer": "Uranus"
+    },
+    {
+      "question": "What\u2019s the main component of the Sun?",
+      "options": [
+        "Oxygen",
+        "Carbon",
+        "Hydrogen",
+        "Iron"
+      ],
+      "answer": "Hydrogen"
+    },
+    {
+      "question": "What\u2019s the term for a star that suddenly increases in brightness?",
+      "options": [
+        "Supernova",
+        "Pulsar",
+        "Quasar",
+        "Nebula"
+      ],
+      "answer": "Supernova"
+    },
+    {
+      "question": "Which mission discovered water on the Moon?",
+      "options": [
+        "Chandrayaan-1",
+        "Apollo 15",
+        "Luna 2",
+        "Viking 1"
+      ],
+      "answer": "Chandrayaan-1"
+    },
+    {
+      "question": "Which is the farthest planet from the Sun?",
+      "options": [
+        "Neptune",
+        "Uranus",
+        "Pluto",
+        "Saturn"
+      ],
+      "answer": "Neptune"
+    },
+    {
+      "question": "What does NASA stand for?",
+      "options": [
+        "National Air and Space Association",
+        "National Aeronautics and Space Administration",
+        "North American Space Agency",
+        "National Astronomy and Space Administration"
+      ],
+      "answer": "National Aeronautics and Space Administration"
+    },
+    {
+      "question": "What is the event horizon of a black hole?",
+      "options": [
+        "A ring of gas",
+        "The core",
+        "The point of no return",
+        "The edge of the universe"
+      ],
+      "answer": "The point of no return"
+    },
+    {
+      "question": "What kind of galaxy is the Milky Way?",
+      "options": [
+        "Elliptical",
+        "Irregular",
+        "Spiral",
+        "Ring"
+      ],
+      "answer": "Spiral"
+    },
+    {
+      "question": "What is the term for a rocky object that enters Earth\u2019s atmosphere?",
+      "options": [
+        "Asteroid",
+        "Comet",
+        "Meteor",
+        "Satellite"
+      ],
+      "answer": "Meteor"
+    },
+    {
+      "question": "Which moon of Jupiter is believed to have an ocean beneath its ice?",
+      "options": [
+        "Io",
+        "Callisto",
+        "Europa",
+        "Ganymede"
+      ],
+      "answer": "Europa"
+    }
+  ]
+}

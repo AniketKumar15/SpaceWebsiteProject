@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./src/css/issTracker.css" />
+  <link rel="stylesheet" href="./src/css/BaseStyle.css" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AstroVerse - ISS</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <h1>ISS Tracker</h1>
+  <a href="./index.html" class="backBtn"><i class="fa-solid fa-arrow-left"></i></a>
+  <canvas id="bg_canvas"></canvas>
+
+  <div class="issInfo">
+    <div class="issInfo-Container">
+      <h2>ISS Information</h2>
+      <div class="issInfo-Data">
+      </div>
+    </div>
+  </div>
+
+  <!-- Vertex Shader -->
+  <script id="vertexShader" type="x-shader/x-vertex">
+    uniform vec3 viewVector;
+    uniform float c;
+    uniform float p;
+    varying float intensity;
+
+    void main() {
+      vec3 vNormal = normalize(normalMatrix * normal);
+      vec3 vNormView = normalize(normalMatrix * viewVector);
+      intensity = pow(c - dot(vNormal, vNormView), p);
+      
+      gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+    }
+  </script>
+
+  <!-- Fragment Shader -->
+  <script id="fragmentShader" type="x-shader/x-fragment">
+    uniform vec3 glowColor;
+    varying float intensity;
+
+    void main() {
+      gl_FragColor = vec4(glowColor * intensity, .5);
+    }
+  </script>
+
+  <script type="module" src="/src/issTracker.js"></script>
+</body>
+
+</html>
