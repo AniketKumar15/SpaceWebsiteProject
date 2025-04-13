@@ -15,7 +15,7 @@ To build a web-based platform that spreads awareness and knowledge about space, 
 
 ## 🌠 Features
 
-### 🛰️ Core Features
+### 🛰️ Core Features (some of them not completed Yet)
 - **Space News**: Stay updated with the latest happenings in the world of space and astrophysics.
 - **Space Missions**: Explore current and past space missions from various global agencies.
 - **All ISRO Satellites**: View information about all satellites launched by ISRO.
@@ -33,11 +33,11 @@ To build a web-based platform that spreads awareness and knowledge about space, 
 
 ## 💻 Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript
-- **3D Visualizations**: [Three.js](https://threejs.org/)
-- **Backend**: PHP
-- **Database**: MySQL (for blogs and user submissions)
-
+- **Frontend**: HTML, CSS, JavaScript (via [Vite](https://vitejs.dev/))
+- **3D Library**: [Three.js](https://threejs.org/)
+- **Backend**: PHP, MySQL
+- **Package Manager**: npm
+- **APIs**: Open Notify for ISS tracking
 ---
 
 ## 👨‍🚀 Admin Capabilities
@@ -47,22 +47,21 @@ To build a web-based platform that spreads awareness and knowledge about space, 
 
 ---
 
-## 🌍 How to Use
+## ⚙️ Setup Instructions
 
-1. Clone the repository.
-2. Set up a local server environment (e.g., XAMPP, WAMP) to run PHP.
-3. Import the database (provided in the SQL file).
-4. Open `index.html` to explore the frontend.
-5. Use the admin panel (`admin.php`) to manage blog submissions.
-
----
-
-## ✨ Future Improvements
-
-- Add User Dashboard system.
-- Implement more 3D simulations like black holes, wormholes.
-- Live telemetry data from space missions.
-- Improved mobile responsiveness.
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/astroverse.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Set up PHP/MySQL environment (e.g. XAMPP) for the backend blog system.
 
 ---
 
