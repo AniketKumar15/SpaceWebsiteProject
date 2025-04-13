@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroVerse-Isro Satellite</title>
+    <link rel="stylesheet" href="./src/css/BaseStyle.css" />
+    <link rel="stylesheet" href="./src/css/card.css" />
+    <link rel="stylesheet" href="./src/css/spaceSatellite.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .heading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        .heading img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="./index.html" class="backBtn"><i class="fa-solid fa-arrow-left"></i></a>
+    <h1 class="heading">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Indian_Space_Research_Organisation_Logo.svg/1059px-Indian_Space_Research_Organisation_Logo.svg.png">
+        ISRO Satellites
+    </h1>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <ul id="satellite-list">
+                <!-- Satellite names will be added dynamically here -->
+            </ul>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <div id="satellite-details">
+                <!-- Satellite details will be shown here -->
+            </div>
+            <div id="allInfoText">
+                <h2>Satellite Details</h2>
+                <p>Select a satellite from the list to view its details.</p>
+            </div>
+        </div>
+    </div>
+    <script src="./src/js/spaceSatellite.js"></script>
+</body>
+
+</html>
